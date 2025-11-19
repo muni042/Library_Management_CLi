@@ -1,0 +1,29 @@
+# LibraryManagementSystem-Java
+
+A simple command-line Library Management application written in Java to demonstrate OOP concepts: inheritance, method overriding, polymorphism (upcasting & downcasting), and usage of collections.
+
+## Features
+- Add book (Story or Subject)
+- Remove book by name
+- Search book by name
+- Sort books by price (descending)
+- Display all books
+- Calculate total price
+
+## Files
+- Book.java
+- Story.java
+- Subject.java
+- Library.java
+- LibraryManagement.java
+
+## Run
+```bash
+javac *.java
+java LibraryManagement
+Notes
+Input prompts are interactive via Scanner.
+
+Upcasting is used to store Story/Subject in a single List<Book>.
+
+Downcasting is used when printing subclass-specific details.
